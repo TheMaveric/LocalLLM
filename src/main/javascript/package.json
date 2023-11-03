@@ -1,0 +1,20 @@
+{
+  "name": "llm-ui",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Local LLM for Bakchodi",
+  "main": "app/index.js",
+  "devDependencies": {
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+
+  }
+}

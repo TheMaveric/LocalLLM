@@ -1,0 +1,104 @@
+/* styles.css */
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #002aff;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 24px;
+}
+
+.chat-messages {
+    padding: 20px;
+    word-wrap: break-word;
+}
+
+.message {
+    background-color: #007bff;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    max-width: 80%; /* Set a maximum width for message containers */
+    word-wrap: break-word; /* Break long words to fit within the container */
+}
+
+.user-message {
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.confetti {
+    width: 10px;
+    height: 10px;
+    background-color: #f00; /* Adjust the color as needed */
+    position: absolute;
+    animation: confetti 1s ease-out; /* Customize the animation as needed */
+}
+
+@keyframes confetti {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    100% {
+        transform: translate(-100vw, 100vh) rotate(360deg);
+    }
+}
+
+.logo {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+}

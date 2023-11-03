@@ -1,0 +1,28 @@
+{
+  "name": "localllm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "annyang": "^2.6.0",
+    "bootstrap": "5.1",
+    "react-cookie": "^4.1.1",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^5.1.0-next.14",
+    "reactstrap": "^8.10.0",
+    "typescript": "^3.2.1"
+  }
+}
